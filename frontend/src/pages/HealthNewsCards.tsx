@@ -9,7 +9,7 @@ import {
 import { ExternalLink, Heart } from "lucide-react";
 import { motion } from "framer-motion";
 
-const API_URL = "https://api.mediastack.com/v1/news?access_key=a20d1232277c6a30d2a8699a75dd677d&categories=health&languages=en&limit=50";
+const API_URL = "https://api.mediastack.com/v1/news?access_key=79fef287dcd140781d68b4ab9796af71&categories=health&languages=en&limit=50";
 
 // const API_URL = "https://code-for-change-1.onrender.com";
 
