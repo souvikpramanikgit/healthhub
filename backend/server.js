@@ -14,7 +14,7 @@ let cache = null;
 async function fetchHealthNews() {
     try {
         console.log('Fetching fresh data from MediaStack API...');
-        const API_URL = 'https://api.mediastack.com/v1/news?access_key=d4533d1f0085837778ce79ae393d41f1&categories=health&languages=en&limit=100';
+        const API_URL = 'https://api.mediastack.com/v1/news?access_key=79fef287dcd140781d68b4ab9796af71&categories=health&languages=en&limit=100';
         const response = await axios.get(API_URL);
         cache = response.data;  // Store data in cache
         return cache;
