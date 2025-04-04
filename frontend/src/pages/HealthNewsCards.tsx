@@ -9,9 +9,9 @@ import {
 import { ExternalLink, Heart } from "lucide-react";
 import { motion } from "framer-motion";
 
-const API_URL = "https://api.mediastack.com/v1/news?access_key=79fef287dcd140781d68b4ab9796af71&categories=health&languages=en&limit=50";
+// const API_URL = "https://api.mediastack.com/v1/news?access_key=79fef287dcd140781d68b4ab9796af71&categories=health&languages=en&limit=50";
 
-// const API_URL = "https://code-for-change-1.onrender.com";
+const API_URL = "https://healthhub-b4x4.onrender.com";
 
 const PLACEHOLDER_IMAGES = [
   "https://source.unsplash.com/400x300/?health,medical",
